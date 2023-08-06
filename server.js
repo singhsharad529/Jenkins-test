@@ -22,6 +22,10 @@ app.get('/about', (req, res) => {
     res.send("<h1>Hi Welcome to my app : About</h1>")
 });
 
+app.get('/contact', (req, res) => {
+    res.send("<h1>Hi Welcome to my app : About</h1>")
+});
+
 app.listen(5000, () => {
     console.log('server is listening on port 5000');
 })
