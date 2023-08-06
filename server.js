@@ -10,7 +10,10 @@ app.get('/production', (req, res) => {
     res.send("<h1>Hi Welcome to my app : production</h1>")
 });
 
+app.get('/development', (req, res) => {
+    res.send("<h1>Hi Welcome to my app : Devlopment</h1>")
+});
 
 app.listen(5000, () => {
-    console.log('server is listening on port 6000');
+    console.log('server is listening on port 5000');
 })
